@@ -41,6 +41,9 @@ location of MNIST dataset
 
 /usr/local/lib/python2.7/dist-packages/tensorflow/models/image/mnist
 
+To get MNIST dataset, run the following command in Linux shell
+
+python -m tensorflow.models.image.mnist.convolutional
 
 
 
