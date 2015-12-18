@@ -10,5 +10,9 @@ git add .
 
 git commit -m "message"
 
+#pull repository
+git pull -q
+
+
 
 
