@@ -13,19 +13,21 @@ git commit -m "message"
 #pull repository
 git pull -q
 
-#Get Location of TensorFlow installation
+#Check models folders in tensorflow directory
+
+Get Location of TensorFlow installation
 vivek@vivek-Lenovo-IdeaPad-U300e:~$ python -c 'import site; print("\n".join(site.getsitepackages()))'
 
-#Following are the two location, the package in the second location
+Following are the two location, the package in the second location
 /usr/local/lib/python2.7/dist-packages
 /usr/lib/python2.7/dist-packages
 
 cd /usr/local/lib/python2.7/dist-packages
 
-#Move to tensorflow folder
+Move to tensorflow folder
 cd tensorflow
 
-#Move to models subfolder
+Move to models subfolder
 cd models
 
 
